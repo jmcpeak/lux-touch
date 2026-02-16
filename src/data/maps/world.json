@@ -1,0 +1,2015 @@
+{
+  "id": "world",
+  "name": "World",
+  "territories": [
+    {
+      "id": "zimbabwe",
+      "name": "Zimbabwe",
+      "continentId": "af",
+      "adjacencies": [
+        "zambia",
+        "south-africa",
+        "mozambique",
+        "botswana"
+      ]
+    },
+    {
+      "id": "zambia",
+      "name": "Zambia",
+      "continentId": "af",
+      "adjacencies": [
+        "zimbabwe",
+        "tanzania",
+        "namibia",
+        "mozambique",
+        "malawi",
+        "dem-rep-congo",
+        "angola"
+      ]
+    },
+    {
+      "id": "yemen",
+      "name": "Yemen",
+      "continentId": "as",
+      "adjacencies": [
+        "saudi-arabia",
+        "oman"
+      ]
+    },
+    {
+      "id": "vietnam",
+      "name": "Vietnam",
+      "continentId": "as",
+      "adjacencies": [
+        "laos",
+        "china",
+        "cambodia"
+      ]
+    },
+    {
+      "id": "vatican",
+      "name": "Vatican",
+      "continentId": "as",
+      "adjacencies": [
+        "italy"
+      ]
+    },
+    {
+      "id": "vanuatu",
+      "name": "Vanuatu",
+      "continentId": "oc",
+      "adjacencies": []
+    },
+    {
+      "id": "uzbekistan",
+      "name": "Uzbekistan",
+      "continentId": "as",
+      "adjacencies": [
+        "turkmenistan",
+        "tajikistan",
+        "kyrgyzstan",
+        "kazakhstan",
+        "afghanistan"
+      ]
+    },
+    {
+      "id": "micronesia",
+      "name": "Micronesia",
+      "continentId": "as",
+      "adjacencies": []
+    },
+    {
+      "id": "marshall-is",
+      "name": "Marshall Is.",
+      "continentId": "as",
+      "adjacencies": []
+    },
+    {
+      "id": "n-mariana-is",
+      "name": "N. Mariana Is.",
+      "continentId": "as",
+      "adjacencies": []
+    },
+    {
+      "id": "u-s-virgin-is",
+      "name": "U.S. Virgin Is.",
+      "continentId": "as",
+      "adjacencies": []
+    },
+    {
+      "id": "guam",
+      "name": "Guam",
+      "continentId": "as",
+      "adjacencies": []
+    },
+    {
+      "id": "american-samoa",
+      "name": "American Samoa",
+      "continentId": "as",
+      "adjacencies": []
+    },
+    {
+      "id": "br-indian-ocean-ter",
+      "name": "Br. Indian Ocean Ter.",
+      "continentId": "as",
+      "adjacencies": []
+    },
+    {
+      "id": "saint-helena",
+      "name": "Saint Helena",
+      "continentId": "as",
+      "adjacencies": []
+    },
+    {
+      "id": "pitcairn-is",
+      "name": "Pitcairn Is.",
+      "continentId": "as",
+      "adjacencies": []
+    },
+    {
+      "id": "anguilla",
+      "name": "Anguilla",
+      "continentId": "as",
+      "adjacencies": []
+    },
+    {
+      "id": "cayman-is",
+      "name": "Cayman Is.",
+      "continentId": "na",
+      "adjacencies": []
+    },
+    {
+      "id": "bermuda",
+      "name": "Bermuda",
+      "continentId": "as",
+      "adjacencies": []
+    },
+    {
+      "id": "british-virgin-is",
+      "name": "British Virgin Is.",
+      "continentId": "as",
+      "adjacencies": []
+    },
+    {
+      "id": "turks-and-caicos-is",
+      "name": "Turks and Caicos Is.",
+      "continentId": "as",
+      "adjacencies": []
+    },
+    {
+      "id": "montserrat",
+      "name": "Montserrat",
+      "continentId": "as",
+      "adjacencies": []
+    },
+    {
+      "id": "jersey",
+      "name": "Jersey",
+      "continentId": "as",
+      "adjacencies": []
+    },
+    {
+      "id": "guernsey",
+      "name": "Guernsey",
+      "continentId": "as",
+      "adjacencies": []
+    },
+    {
+      "id": "isle-of-man",
+      "name": "Isle of Man",
+      "continentId": "as",
+      "adjacencies": []
+    },
+    {
+      "id": "united-kingdom",
+      "name": "United Kingdom",
+      "continentId": "eu",
+      "adjacencies": [
+        "ireland"
+      ]
+    },
+    {
+      "id": "united-arab-emirates",
+      "name": "United Arab Emirates",
+      "continentId": "as",
+      "adjacencies": [
+        "saudi-arabia",
+        "oman"
+      ]
+    },
+    {
+      "id": "ukraine",
+      "name": "Ukraine",
+      "continentId": "eu",
+      "adjacencies": [
+        "slovakia",
+        "russia",
+        "romania",
+        "poland",
+        "moldova",
+        "hungary",
+        "belarus"
+      ]
+    },
+    {
+      "id": "uganda",
+      "name": "Uganda",
+      "continentId": "af",
+      "adjacencies": [
+        "tanzania",
+        "s-sudan",
+        "rwanda",
+        "kenya",
+        "dem-rep-congo"
+      ]
+    },
+    {
+      "id": "turkmenistan",
+      "name": "Turkmenistan",
+      "continentId": "as",
+      "adjacencies": [
+        "uzbekistan",
+        "kazakhstan",
+        "iran",
+        "afghanistan"
+      ]
+    },
+    {
+      "id": "turkey",
+      "name": "Turkey",
+      "continentId": "eu",
+      "adjacencies": [
+        "syria",
+        "iraq",
+        "iran",
+        "greece",
+        "georgia",
+        "bulgaria",
+        "azerbaijan",
+        "armenia"
+      ]
+    },
+    {
+      "id": "tunisia",
+      "name": "Tunisia",
+      "continentId": "af",
+      "adjacencies": [
+        "libya",
+        "algeria"
+      ]
+    },
+    {
+      "id": "tonga",
+      "name": "Tonga",
+      "continentId": "as",
+      "adjacencies": []
+    },
+    {
+      "id": "togo",
+      "name": "Togo",
+      "continentId": "af",
+      "adjacencies": [
+        "ghana",
+        "burkina-faso",
+        "benin"
+      ]
+    },
+    {
+      "id": "timor-leste",
+      "name": "Timor-Leste",
+      "continentId": "oc",
+      "adjacencies": [
+        "indonesia"
+      ]
+    },
+    {
+      "id": "thailand",
+      "name": "Thailand",
+      "continentId": "as",
+      "adjacencies": [
+        "malaysia",
+        "laos",
+        "cambodia",
+        "myanmar"
+      ]
+    },
+    {
+      "id": "tanzania",
+      "name": "Tanzania",
+      "continentId": "af",
+      "adjacencies": [
+        "zambia",
+        "uganda",
+        "rwanda",
+        "mozambique",
+        "malawi",
+        "kenya",
+        "dem-rep-congo",
+        "burundi"
+      ]
+    },
+    {
+      "id": "tajikistan",
+      "name": "Tajikistan",
+      "continentId": "as",
+      "adjacencies": [
+        "uzbekistan",
+        "kyrgyzstan",
+        "china",
+        "afghanistan"
+      ]
+    },
+    {
+      "id": "taiwan",
+      "name": "Taiwan",
+      "continentId": "as",
+      "adjacencies": []
+    },
+    {
+      "id": "syria",
+      "name": "Syria",
+      "continentId": "as",
+      "adjacencies": [
+        "turkey",
+        "lebanon",
+        "jordan",
+        "israel",
+        "iraq"
+      ]
+    },
+    {
+      "id": "switzerland",
+      "name": "Switzerland",
+      "continentId": "eu",
+      "adjacencies": [
+        "liechtenstein",
+        "italy",
+        "germany",
+        "france",
+        "austria"
+      ]
+    },
+    {
+      "id": "sweden",
+      "name": "Sweden",
+      "continentId": "eu",
+      "adjacencies": [
+        "norway",
+        "finland"
+      ]
+    },
+    {
+      "id": "eswatini",
+      "name": "eSwatini",
+      "continentId": "af",
+      "adjacencies": [
+        "south-africa",
+        "mozambique"
+      ]
+    },
+    {
+      "id": "s-sudan",
+      "name": "S. Sudan",
+      "continentId": "af",
+      "adjacencies": [
+        "uganda",
+        "sudan",
+        "kenya",
+        "ethiopia",
+        "dem-rep-congo",
+        "central-african-rep"
+      ]
+    },
+    {
+      "id": "sudan",
+      "name": "Sudan",
+      "continentId": "af",
+      "adjacencies": [
+        "s-sudan",
+        "libya",
+        "ethiopia",
+        "eritrea",
+        "egypt",
+        "chad",
+        "central-african-rep"
+      ]
+    },
+    {
+      "id": "sri-lanka",
+      "name": "Sri Lanka",
+      "continentId": "as",
+      "adjacencies": []
+    },
+    {
+      "id": "spain",
+      "name": "Spain",
+      "continentId": "eu",
+      "adjacencies": [
+        "portugal",
+        "france",
+        "andorra"
+      ]
+    },
+    {
+      "id": "south-korea",
+      "name": "South Korea",
+      "continentId": "as",
+      "adjacencies": [
+        "north-korea"
+      ]
+    },
+    {
+      "id": "south-africa",
+      "name": "South Africa",
+      "continentId": "af",
+      "adjacencies": [
+        "zimbabwe",
+        "eswatini",
+        "namibia",
+        "mozambique",
+        "lesotho",
+        "botswana"
+      ]
+    },
+    {
+      "id": "somalia",
+      "name": "Somalia",
+      "continentId": "af",
+      "adjacencies": [
+        "kenya",
+        "ethiopia"
+      ]
+    },
+    {
+      "id": "solomon-is",
+      "name": "Solomon Is.",
+      "continentId": "oc",
+      "adjacencies": []
+    },
+    {
+      "id": "slovakia",
+      "name": "Slovakia",
+      "continentId": "eu",
+      "adjacencies": [
+        "ukraine",
+        "poland",
+        "hungary",
+        "czechia",
+        "austria"
+      ]
+    },
+    {
+      "id": "slovenia",
+      "name": "Slovenia",
+      "continentId": "eu",
+      "adjacencies": [
+        "italy",
+        "hungary",
+        "croatia",
+        "austria"
+      ]
+    },
+    {
+      "id": "singapore",
+      "name": "Singapore",
+      "continentId": "as",
+      "adjacencies": []
+    },
+    {
+      "id": "sierra-leone",
+      "name": "Sierra Leone",
+      "continentId": "af",
+      "adjacencies": [
+        "liberia",
+        "guinea"
+      ]
+    },
+    {
+      "id": "seychelles",
+      "name": "Seychelles",
+      "continentId": "as",
+      "adjacencies": []
+    },
+    {
+      "id": "serbia",
+      "name": "Serbia",
+      "continentId": "eu",
+      "adjacencies": [
+        "romania",
+        "montenegro",
+        "macedonia",
+        "hungary",
+        "croatia",
+        "bulgaria",
+        "bosnia-and-herz"
+      ]
+    },
+    {
+      "id": "senegal",
+      "name": "Senegal",
+      "continentId": "af",
+      "adjacencies": [
+        "mauritania",
+        "mali",
+        "guinea-bissau",
+        "guinea",
+        "gambia"
+      ]
+    },
+    {
+      "id": "saudi-arabia",
+      "name": "Saudi Arabia",
+      "continentId": "as",
+      "adjacencies": [
+        "yemen",
+        "united-arab-emirates",
+        "qatar",
+        "oman",
+        "kuwait",
+        "jordan",
+        "iraq"
+      ]
+    },
+    {
+      "id": "s-o-tom-and-principe",
+      "name": "São Tomé and Principe",
+      "continentId": "as",
+      "adjacencies": []
+    },
+    {
+      "id": "san-marino",
+      "name": "San Marino",
+      "continentId": "as",
+      "adjacencies": [
+        "italy"
+      ]
+    },
+    {
+      "id": "samoa",
+      "name": "Samoa",
+      "continentId": "as",
+      "adjacencies": []
+    },
+    {
+      "id": "st-vin-and-gren",
+      "name": "St. Vin. and Gren.",
+      "continentId": "as",
+      "adjacencies": []
+    },
+    {
+      "id": "rwanda",
+      "name": "Rwanda",
+      "continentId": "af",
+      "adjacencies": [
+        "uganda",
+        "tanzania",
+        "dem-rep-congo",
+        "burundi"
+      ]
+    },
+    {
+      "id": "russia",
+      "name": "Russia",
+      "continentId": "as",
+      "adjacencies": [
+        "ukraine",
+        "poland",
+        "norway",
+        "north-korea",
+        "mongolia",
+        "lithuania",
+        "latvia",
+        "kazakhstan",
+        "georgia",
+        "finland",
+        "estonia",
+        "china",
+        "belarus",
+        "azerbaijan"
+      ]
+    },
+    {
+      "id": "romania",
+      "name": "Romania",
+      "continentId": "eu",
+      "adjacencies": [
+        "ukraine",
+        "serbia",
+        "moldova",
+        "hungary",
+        "bulgaria"
+      ]
+    },
+    {
+      "id": "qatar",
+      "name": "Qatar",
+      "continentId": "as",
+      "adjacencies": [
+        "saudi-arabia"
+      ]
+    },
+    {
+      "id": "portugal",
+      "name": "Portugal",
+      "continentId": "eu",
+      "adjacencies": [
+        "spain"
+      ]
+    },
+    {
+      "id": "poland",
+      "name": "Poland",
+      "continentId": "eu",
+      "adjacencies": [
+        "ukraine",
+        "slovakia",
+        "russia",
+        "lithuania",
+        "germany",
+        "czechia",
+        "belarus"
+      ]
+    },
+    {
+      "id": "philippines",
+      "name": "Philippines",
+      "continentId": "oc",
+      "adjacencies": []
+    },
+    {
+      "id": "papua-new-guinea",
+      "name": "Papua New Guinea",
+      "continentId": "oc",
+      "adjacencies": [
+        "indonesia"
+      ]
+    },
+    {
+      "id": "palau",
+      "name": "Palau",
+      "continentId": "as",
+      "adjacencies": []
+    },
+    {
+      "id": "pakistan",
+      "name": "Pakistan",
+      "continentId": "as",
+      "adjacencies": [
+        "iran",
+        "india",
+        "china",
+        "afghanistan"
+      ]
+    },
+    {
+      "id": "oman",
+      "name": "Oman",
+      "continentId": "as",
+      "adjacencies": [
+        "yemen",
+        "united-arab-emirates",
+        "saudi-arabia"
+      ]
+    },
+    {
+      "id": "norway",
+      "name": "Norway",
+      "continentId": "eu",
+      "adjacencies": [
+        "sweden",
+        "russia",
+        "finland"
+      ]
+    },
+    {
+      "id": "north-korea",
+      "name": "North Korea",
+      "continentId": "as",
+      "adjacencies": [
+        "south-korea",
+        "russia",
+        "china"
+      ]
+    },
+    {
+      "id": "nigeria",
+      "name": "Nigeria",
+      "continentId": "af",
+      "adjacencies": [
+        "niger",
+        "chad",
+        "cameroon",
+        "benin"
+      ]
+    },
+    {
+      "id": "niger",
+      "name": "Niger",
+      "continentId": "af",
+      "adjacencies": [
+        "nigeria",
+        "mali",
+        "libya",
+        "chad",
+        "burkina-faso",
+        "benin",
+        "algeria"
+      ]
+    },
+    {
+      "id": "new-zealand",
+      "name": "New Zealand",
+      "continentId": "oc",
+      "adjacencies": []
+    },
+    {
+      "id": "niue",
+      "name": "Niue",
+      "continentId": "as",
+      "adjacencies": []
+    },
+    {
+      "id": "cook-is",
+      "name": "Cook Is.",
+      "continentId": "as",
+      "adjacencies": []
+    },
+    {
+      "id": "netherlands",
+      "name": "Netherlands",
+      "continentId": "eu",
+      "adjacencies": [
+        "germany",
+        "belgium"
+      ]
+    },
+    {
+      "id": "aruba",
+      "name": "Aruba",
+      "continentId": "as",
+      "adjacencies": []
+    },
+    {
+      "id": "cura-ao",
+      "name": "Curaçao",
+      "continentId": "as",
+      "adjacencies": []
+    },
+    {
+      "id": "nepal",
+      "name": "Nepal",
+      "continentId": "as",
+      "adjacencies": [
+        "india",
+        "china"
+      ]
+    },
+    {
+      "id": "nauru",
+      "name": "Nauru",
+      "continentId": "as",
+      "adjacencies": []
+    },
+    {
+      "id": "namibia",
+      "name": "Namibia",
+      "continentId": "af",
+      "adjacencies": [
+        "zambia",
+        "south-africa",
+        "botswana",
+        "angola"
+      ]
+    },
+    {
+      "id": "mozambique",
+      "name": "Mozambique",
+      "continentId": "af",
+      "adjacencies": [
+        "zimbabwe",
+        "zambia",
+        "tanzania",
+        "eswatini",
+        "south-africa",
+        "malawi"
+      ]
+    },
+    {
+      "id": "morocco",
+      "name": "Morocco",
+      "continentId": "af",
+      "adjacencies": [
+        "w-sahara",
+        "algeria"
+      ]
+    },
+    {
+      "id": "w-sahara",
+      "name": "W. Sahara",
+      "continentId": "af",
+      "adjacencies": [
+        "morocco",
+        "mauritania",
+        "algeria"
+      ]
+    },
+    {
+      "id": "montenegro",
+      "name": "Montenegro",
+      "continentId": "eu",
+      "adjacencies": [
+        "serbia",
+        "croatia",
+        "bosnia-and-herz",
+        "albania"
+      ]
+    },
+    {
+      "id": "mongolia",
+      "name": "Mongolia",
+      "continentId": "as",
+      "adjacencies": [
+        "russia",
+        "china"
+      ]
+    },
+    {
+      "id": "moldova",
+      "name": "Moldova",
+      "continentId": "eu",
+      "adjacencies": [
+        "ukraine",
+        "romania"
+      ]
+    },
+    {
+      "id": "monaco",
+      "name": "Monaco",
+      "continentId": "as",
+      "adjacencies": [
+        "france"
+      ]
+    },
+    {
+      "id": "mauritius",
+      "name": "Mauritius",
+      "continentId": "as",
+      "adjacencies": []
+    },
+    {
+      "id": "mauritania",
+      "name": "Mauritania",
+      "continentId": "af",
+      "adjacencies": [
+        "senegal",
+        "w-sahara",
+        "mali",
+        "algeria"
+      ]
+    },
+    {
+      "id": "malta",
+      "name": "Malta",
+      "continentId": "as",
+      "adjacencies": []
+    },
+    {
+      "id": "mali",
+      "name": "Mali",
+      "continentId": "af",
+      "adjacencies": [
+        "senegal",
+        "niger",
+        "mauritania",
+        "guinea",
+        "c-te-d-ivoire",
+        "burkina-faso",
+        "algeria"
+      ]
+    },
+    {
+      "id": "maldives",
+      "name": "Maldives",
+      "continentId": "as",
+      "adjacencies": []
+    },
+    {
+      "id": "malaysia",
+      "name": "Malaysia",
+      "continentId": "as",
+      "adjacencies": [
+        "thailand",
+        "indonesia",
+        "brunei"
+      ]
+    },
+    {
+      "id": "malawi",
+      "name": "Malawi",
+      "continentId": "af",
+      "adjacencies": [
+        "zambia",
+        "tanzania",
+        "mozambique"
+      ]
+    },
+    {
+      "id": "madagascar",
+      "name": "Madagascar",
+      "continentId": "af",
+      "adjacencies": []
+    },
+    {
+      "id": "macedonia",
+      "name": "Macedonia",
+      "continentId": "eu",
+      "adjacencies": [
+        "serbia",
+        "greece",
+        "bulgaria",
+        "albania"
+      ]
+    },
+    {
+      "id": "luxembourg",
+      "name": "Luxembourg",
+      "continentId": "eu",
+      "adjacencies": [
+        "germany",
+        "france",
+        "belgium"
+      ]
+    },
+    {
+      "id": "lithuania",
+      "name": "Lithuania",
+      "continentId": "eu",
+      "adjacencies": [
+        "russia",
+        "poland",
+        "latvia",
+        "belarus"
+      ]
+    },
+    {
+      "id": "liechtenstein",
+      "name": "Liechtenstein",
+      "continentId": "as",
+      "adjacencies": [
+        "switzerland",
+        "austria"
+      ]
+    },
+    {
+      "id": "libya",
+      "name": "Libya",
+      "continentId": "af",
+      "adjacencies": [
+        "tunisia",
+        "sudan",
+        "niger",
+        "egypt",
+        "chad",
+        "algeria"
+      ]
+    },
+    {
+      "id": "liberia",
+      "name": "Liberia",
+      "continentId": "af",
+      "adjacencies": [
+        "sierra-leone",
+        "guinea",
+        "c-te-d-ivoire"
+      ]
+    },
+    {
+      "id": "lesotho",
+      "name": "Lesotho",
+      "continentId": "af",
+      "adjacencies": [
+        "south-africa"
+      ]
+    },
+    {
+      "id": "lebanon",
+      "name": "Lebanon",
+      "continentId": "as",
+      "adjacencies": [
+        "syria",
+        "israel"
+      ]
+    },
+    {
+      "id": "latvia",
+      "name": "Latvia",
+      "continentId": "eu",
+      "adjacencies": [
+        "russia",
+        "lithuania",
+        "estonia",
+        "belarus"
+      ]
+    },
+    {
+      "id": "laos",
+      "name": "Laos",
+      "continentId": "as",
+      "adjacencies": [
+        "vietnam",
+        "thailand",
+        "china",
+        "cambodia",
+        "myanmar"
+      ]
+    },
+    {
+      "id": "kyrgyzstan",
+      "name": "Kyrgyzstan",
+      "continentId": "as",
+      "adjacencies": [
+        "uzbekistan",
+        "tajikistan",
+        "kazakhstan",
+        "china"
+      ]
+    },
+    {
+      "id": "kuwait",
+      "name": "Kuwait",
+      "continentId": "as",
+      "adjacencies": [
+        "saudi-arabia",
+        "iraq"
+      ]
+    },
+    {
+      "id": "kiribati",
+      "name": "Kiribati",
+      "continentId": "as",
+      "adjacencies": []
+    },
+    {
+      "id": "kenya",
+      "name": "Kenya",
+      "continentId": "af",
+      "adjacencies": [
+        "uganda",
+        "tanzania",
+        "s-sudan",
+        "somalia",
+        "ethiopia"
+      ]
+    },
+    {
+      "id": "kazakhstan",
+      "name": "Kazakhstan",
+      "continentId": "as",
+      "adjacencies": [
+        "uzbekistan",
+        "turkmenistan",
+        "russia",
+        "kyrgyzstan",
+        "china"
+      ]
+    },
+    {
+      "id": "jordan",
+      "name": "Jordan",
+      "continentId": "as",
+      "adjacencies": [
+        "syria",
+        "saudi-arabia",
+        "israel",
+        "palestine",
+        "iraq"
+      ]
+    },
+    {
+      "id": "japan",
+      "name": "Japan",
+      "continentId": "as",
+      "adjacencies": []
+    },
+    {
+      "id": "italy",
+      "name": "Italy",
+      "continentId": "as",
+      "adjacencies": [
+        "vatican",
+        "switzerland",
+        "slovenia",
+        "san-marino",
+        "france",
+        "austria"
+      ]
+    },
+    {
+      "id": "israel",
+      "name": "Israel",
+      "continentId": "as",
+      "adjacencies": [
+        "syria",
+        "lebanon",
+        "jordan",
+        "palestine",
+        "egypt"
+      ]
+    },
+    {
+      "id": "palestine",
+      "name": "Palestine",
+      "continentId": "as",
+      "adjacencies": [
+        "jordan",
+        "israel",
+        "egypt"
+      ]
+    },
+    {
+      "id": "ireland",
+      "name": "Ireland",
+      "continentId": "eu",
+      "adjacencies": [
+        "united-kingdom"
+      ]
+    },
+    {
+      "id": "iraq",
+      "name": "Iraq",
+      "continentId": "as",
+      "adjacencies": [
+        "turkey",
+        "syria",
+        "saudi-arabia",
+        "kuwait",
+        "jordan",
+        "iran"
+      ]
+    },
+    {
+      "id": "iran",
+      "name": "Iran",
+      "continentId": "as",
+      "adjacencies": [
+        "turkmenistan",
+        "turkey",
+        "pakistan",
+        "iraq",
+        "azerbaijan",
+        "armenia",
+        "afghanistan"
+      ]
+    },
+    {
+      "id": "indonesia",
+      "name": "Indonesia",
+      "continentId": "as",
+      "adjacencies": [
+        "timor-leste",
+        "papua-new-guinea",
+        "malaysia"
+      ]
+    },
+    {
+      "id": "india",
+      "name": "India",
+      "continentId": "as",
+      "adjacencies": [
+        "pakistan",
+        "nepal",
+        "china",
+        "myanmar",
+        "bhutan",
+        "bangladesh"
+      ]
+    },
+    {
+      "id": "iceland",
+      "name": "Iceland",
+      "continentId": "eu",
+      "adjacencies": []
+    },
+    {
+      "id": "hungary",
+      "name": "Hungary",
+      "continentId": "eu",
+      "adjacencies": [
+        "ukraine",
+        "slovakia",
+        "slovenia",
+        "serbia",
+        "romania",
+        "croatia",
+        "austria"
+      ]
+    },
+    {
+      "id": "guinea-bissau",
+      "name": "Guinea-Bissau",
+      "continentId": "af",
+      "adjacencies": [
+        "senegal",
+        "guinea"
+      ]
+    },
+    {
+      "id": "guinea",
+      "name": "Guinea",
+      "continentId": "af",
+      "adjacencies": [
+        "sierra-leone",
+        "senegal",
+        "mali",
+        "liberia",
+        "guinea-bissau",
+        "c-te-d-ivoire"
+      ]
+    },
+    {
+      "id": "greece",
+      "name": "Greece",
+      "continentId": "eu",
+      "adjacencies": [
+        "turkey",
+        "macedonia",
+        "bulgaria",
+        "albania"
+      ]
+    },
+    {
+      "id": "ghana",
+      "name": "Ghana",
+      "continentId": "af",
+      "adjacencies": [
+        "togo",
+        "c-te-d-ivoire",
+        "burkina-faso"
+      ]
+    },
+    {
+      "id": "germany",
+      "name": "Germany",
+      "continentId": "eu",
+      "adjacencies": [
+        "switzerland",
+        "poland",
+        "netherlands",
+        "luxembourg",
+        "france",
+        "denmark",
+        "czechia",
+        "belgium",
+        "austria"
+      ]
+    },
+    {
+      "id": "georgia",
+      "name": "Georgia",
+      "continentId": "as",
+      "adjacencies": [
+        "turkey",
+        "russia",
+        "azerbaijan",
+        "armenia"
+      ]
+    },
+    {
+      "id": "gambia",
+      "name": "Gambia",
+      "continentId": "af",
+      "adjacencies": [
+        "senegal"
+      ]
+    },
+    {
+      "id": "gabon",
+      "name": "Gabon",
+      "continentId": "af",
+      "adjacencies": [
+        "eq-guinea",
+        "congo",
+        "cameroon"
+      ]
+    },
+    {
+      "id": "france",
+      "name": "France",
+      "continentId": "eu",
+      "adjacencies": [
+        "switzerland",
+        "venezuela",
+        "spain",
+        "monaco",
+        "luxembourg",
+        "italy",
+        "germany",
+        "brazil",
+        "belgium",
+        "andorra"
+      ]
+    },
+    {
+      "id": "st-pierre-and-miquelon",
+      "name": "St. Pierre and Miquelon",
+      "continentId": "as",
+      "adjacencies": []
+    },
+    {
+      "id": "wallis-and-futuna-is",
+      "name": "Wallis and Futuna Is.",
+      "continentId": "as",
+      "adjacencies": []
+    },
+    {
+      "id": "st-martin",
+      "name": "St-Martin",
+      "continentId": "as",
+      "adjacencies": [
+        "sint-maarten"
+      ]
+    },
+    {
+      "id": "st-barth-lemy",
+      "name": "St-Barthélemy",
+      "continentId": "as",
+      "adjacencies": []
+    },
+    {
+      "id": "fr-polynesia",
+      "name": "Fr. Polynesia",
+      "continentId": "as",
+      "adjacencies": []
+    },
+    {
+      "id": "new-caledonia",
+      "name": "New Caledonia",
+      "continentId": "oc",
+      "adjacencies": []
+    },
+    {
+      "id": "land",
+      "name": "Åland",
+      "continentId": "as",
+      "adjacencies": []
+    },
+    {
+      "id": "finland",
+      "name": "Finland",
+      "continentId": "eu",
+      "adjacencies": [
+        "sweden",
+        "russia",
+        "norway"
+      ]
+    },
+    {
+      "id": "fiji",
+      "name": "Fiji",
+      "continentId": "oc",
+      "adjacencies": []
+    },
+    {
+      "id": "ethiopia",
+      "name": "Ethiopia",
+      "continentId": "af",
+      "adjacencies": [
+        "s-sudan",
+        "sudan",
+        "somalia",
+        "kenya",
+        "eritrea",
+        "djibouti"
+      ]
+    },
+    {
+      "id": "estonia",
+      "name": "Estonia",
+      "continentId": "eu",
+      "adjacencies": [
+        "russia",
+        "latvia"
+      ]
+    },
+    {
+      "id": "eritrea",
+      "name": "Eritrea",
+      "continentId": "af",
+      "adjacencies": [
+        "sudan",
+        "ethiopia",
+        "djibouti"
+      ]
+    },
+    {
+      "id": "eq-guinea",
+      "name": "Eq. Guinea",
+      "continentId": "af",
+      "adjacencies": [
+        "gabon",
+        "cameroon"
+      ]
+    },
+    {
+      "id": "egypt",
+      "name": "Egypt",
+      "continentId": "as",
+      "adjacencies": [
+        "sudan",
+        "libya",
+        "israel",
+        "palestine"
+      ]
+    },
+    {
+      "id": "djibouti",
+      "name": "Djibouti",
+      "continentId": "af",
+      "adjacencies": [
+        "ethiopia",
+        "eritrea"
+      ]
+    },
+    {
+      "id": "faeroe-is",
+      "name": "Faeroe Is.",
+      "continentId": "as",
+      "adjacencies": []
+    },
+    {
+      "id": "denmark",
+      "name": "Denmark",
+      "continentId": "eu",
+      "adjacencies": [
+        "germany"
+      ]
+    },
+    {
+      "id": "czechia",
+      "name": "Czechia",
+      "continentId": "eu",
+      "adjacencies": [
+        "slovakia",
+        "poland",
+        "germany",
+        "austria"
+      ]
+    },
+    {
+      "id": "cyprus",
+      "name": "Cyprus",
+      "continentId": "as",
+      "adjacencies": []
+    },
+    {
+      "id": "croatia",
+      "name": "Croatia",
+      "continentId": "eu",
+      "adjacencies": [
+        "slovenia",
+        "serbia",
+        "montenegro",
+        "hungary",
+        "bosnia-and-herz"
+      ]
+    },
+    {
+      "id": "c-te-d-ivoire",
+      "name": "Côte d'Ivoire",
+      "continentId": "af",
+      "adjacencies": [
+        "mali",
+        "liberia",
+        "guinea",
+        "ghana",
+        "burkina-faso"
+      ]
+    },
+    {
+      "id": "dem-rep-congo",
+      "name": "Dem. Rep. Congo",
+      "continentId": "af",
+      "adjacencies": [
+        "zambia",
+        "uganda",
+        "tanzania",
+        "s-sudan",
+        "rwanda",
+        "congo",
+        "central-african-rep",
+        "burundi",
+        "angola"
+      ]
+    },
+    {
+      "id": "congo",
+      "name": "Congo",
+      "continentId": "af",
+      "adjacencies": [
+        "gabon",
+        "dem-rep-congo",
+        "central-african-rep",
+        "cameroon",
+        "angola"
+      ]
+    },
+    {
+      "id": "comoros",
+      "name": "Comoros",
+      "continentId": "as",
+      "adjacencies": []
+    },
+    {
+      "id": "china",
+      "name": "China",
+      "continentId": "as",
+      "adjacencies": [
+        "vietnam",
+        "tajikistan",
+        "russia",
+        "pakistan",
+        "north-korea",
+        "nepal",
+        "mongolia",
+        "laos",
+        "kyrgyzstan",
+        "kazakhstan",
+        "india",
+        "macao",
+        "hong-kong",
+        "myanmar",
+        "bhutan",
+        "afghanistan"
+      ]
+    },
+    {
+      "id": "macao",
+      "name": "Macao",
+      "continentId": "as",
+      "adjacencies": [
+        "china"
+      ]
+    },
+    {
+      "id": "hong-kong",
+      "name": "Hong Kong",
+      "continentId": "as",
+      "adjacencies": [
+        "china"
+      ]
+    },
+    {
+      "id": "chad",
+      "name": "Chad",
+      "continentId": "af",
+      "adjacencies": [
+        "sudan",
+        "nigeria",
+        "niger",
+        "libya",
+        "central-african-rep",
+        "cameroon"
+      ]
+    },
+    {
+      "id": "central-african-rep",
+      "name": "Central African Rep.",
+      "continentId": "af",
+      "adjacencies": [
+        "s-sudan",
+        "sudan",
+        "dem-rep-congo",
+        "congo",
+        "chad",
+        "cameroon"
+      ]
+    },
+    {
+      "id": "cabo-verde",
+      "name": "Cabo Verde",
+      "continentId": "as",
+      "adjacencies": []
+    },
+    {
+      "id": "cameroon",
+      "name": "Cameroon",
+      "continentId": "af",
+      "adjacencies": [
+        "nigeria",
+        "gabon",
+        "eq-guinea",
+        "congo",
+        "chad",
+        "central-african-rep"
+      ]
+    },
+    {
+      "id": "cambodia",
+      "name": "Cambodia",
+      "continentId": "as",
+      "adjacencies": [
+        "vietnam",
+        "thailand",
+        "laos"
+      ]
+    },
+    {
+      "id": "myanmar",
+      "name": "Myanmar",
+      "continentId": "as",
+      "adjacencies": [
+        "thailand",
+        "laos",
+        "india",
+        "china",
+        "bangladesh"
+      ]
+    },
+    {
+      "id": "burundi",
+      "name": "Burundi",
+      "continentId": "af",
+      "adjacencies": [
+        "tanzania",
+        "rwanda",
+        "dem-rep-congo"
+      ]
+    },
+    {
+      "id": "burkina-faso",
+      "name": "Burkina Faso",
+      "continentId": "af",
+      "adjacencies": [
+        "togo",
+        "niger",
+        "mali",
+        "ghana",
+        "c-te-d-ivoire",
+        "benin"
+      ]
+    },
+    {
+      "id": "bulgaria",
+      "name": "Bulgaria",
+      "continentId": "eu",
+      "adjacencies": [
+        "turkey",
+        "serbia",
+        "romania",
+        "macedonia",
+        "greece"
+      ]
+    },
+    {
+      "id": "brunei",
+      "name": "Brunei",
+      "continentId": "as",
+      "adjacencies": [
+        "malaysia"
+      ]
+    },
+    {
+      "id": "botswana",
+      "name": "Botswana",
+      "continentId": "af",
+      "adjacencies": [
+        "zimbabwe",
+        "south-africa",
+        "namibia"
+      ]
+    },
+    {
+      "id": "bosnia-and-herz",
+      "name": "Bosnia and Herz.",
+      "continentId": "eu",
+      "adjacencies": [
+        "serbia",
+        "montenegro",
+        "croatia"
+      ]
+    },
+    {
+      "id": "bhutan",
+      "name": "Bhutan",
+      "continentId": "as",
+      "adjacencies": [
+        "india",
+        "china"
+      ]
+    },
+    {
+      "id": "benin",
+      "name": "Benin",
+      "continentId": "af",
+      "adjacencies": [
+        "togo",
+        "nigeria",
+        "niger",
+        "burkina-faso"
+      ]
+    },
+    {
+      "id": "belgium",
+      "name": "Belgium",
+      "continentId": "eu",
+      "adjacencies": [
+        "netherlands",
+        "luxembourg",
+        "germany",
+        "france"
+      ]
+    },
+    {
+      "id": "belarus",
+      "name": "Belarus",
+      "continentId": "eu",
+      "adjacencies": [
+        "ukraine",
+        "russia",
+        "poland",
+        "lithuania",
+        "latvia"
+      ]
+    },
+    {
+      "id": "bangladesh",
+      "name": "Bangladesh",
+      "continentId": "as",
+      "adjacencies": [
+        "india",
+        "myanmar"
+      ]
+    },
+    {
+      "id": "bahrain",
+      "name": "Bahrain",
+      "continentId": "as",
+      "adjacencies": []
+    },
+    {
+      "id": "azerbaijan",
+      "name": "Azerbaijan",
+      "continentId": "as",
+      "adjacencies": [
+        "turkey",
+        "russia",
+        "iran",
+        "georgia",
+        "armenia"
+      ]
+    },
+    {
+      "id": "austria",
+      "name": "Austria",
+      "continentId": "eu",
+      "adjacencies": [
+        "switzerland",
+        "slovakia",
+        "slovenia",
+        "liechtenstein",
+        "italy",
+        "hungary",
+        "germany",
+        "czechia"
+      ]
+    },
+    {
+      "id": "australia",
+      "name": "Australia",
+      "continentId": "oc",
+      "adjacencies": []
+    },
+    {
+      "id": "heard-i-and-mcdonald-is",
+      "name": "Heard I. and McDonald Is.",
+      "continentId": "as",
+      "adjacencies": []
+    },
+    {
+      "id": "norfolk-island",
+      "name": "Norfolk Island",
+      "continentId": "as",
+      "adjacencies": []
+    },
+    {
+      "id": "ashmore-and-cartier-is",
+      "name": "Ashmore and Cartier Is.",
+      "continentId": "oc",
+      "adjacencies": []
+    },
+    {
+      "id": "armenia",
+      "name": "Armenia",
+      "continentId": "as",
+      "adjacencies": [
+        "turkey",
+        "iran",
+        "georgia",
+        "azerbaijan"
+      ]
+    },
+    {
+      "id": "antigua-and-barb",
+      "name": "Antigua and Barb.",
+      "continentId": "as",
+      "adjacencies": []
+    },
+    {
+      "id": "angola",
+      "name": "Angola",
+      "continentId": "af",
+      "adjacencies": [
+        "zambia",
+        "namibia",
+        "dem-rep-congo",
+        "congo"
+      ]
+    },
+    {
+      "id": "andorra",
+      "name": "Andorra",
+      "continentId": "as",
+      "adjacencies": [
+        "spain",
+        "france"
+      ]
+    },
+    {
+      "id": "algeria",
+      "name": "Algeria",
+      "continentId": "af",
+      "adjacencies": [
+        "tunisia",
+        "niger",
+        "morocco",
+        "w-sahara",
+        "mauritania",
+        "mali",
+        "libya"
+      ]
+    },
+    {
+      "id": "albania",
+      "name": "Albania",
+      "continentId": "eu",
+      "adjacencies": [
+        "montenegro",
+        "macedonia",
+        "greece"
+      ]
+    },
+    {
+      "id": "afghanistan",
+      "name": "Afghanistan",
+      "continentId": "as",
+      "adjacencies": [
+        "uzbekistan",
+        "turkmenistan",
+        "tajikistan",
+        "pakistan",
+        "iran",
+        "china"
+      ]
+    },
+    {
+      "id": "sint-maarten",
+      "name": "Sint Maarten",
+      "continentId": "as",
+      "adjacencies": [
+        "st-martin"
+      ]
+    },
+    {
+      "id": "venezuela",
+      "name": "Venezuela",
+      "continentId": "sa",
+      "adjacencies": [
+        "brazil",
+        "france",
+        "peru",
+        "central-america"
+      ]
+    },
+    {
+      "id": "peru",
+      "name": "Peru",
+      "continentId": "sa",
+      "adjacencies": [
+        "venezuela",
+        "argentina",
+        "brazil"
+      ]
+    },
+    {
+      "id": "brazil",
+      "name": "Brazil",
+      "continentId": "sa",
+      "adjacencies": [
+        "argentina",
+        "peru",
+        "venezuela",
+        "france"
+      ]
+    },
+    {
+      "id": "argentina",
+      "name": "Argentina",
+      "continentId": "sa",
+      "adjacencies": [
+        "peru",
+        "brazil"
+      ]
+    },
+    {
+      "id": "canada",
+      "name": "Canada",
+      "continentId": "na",
+      "adjacencies": [
+        "united-states"
+      ]
+    },
+    {
+      "id": "united-states",
+      "name": "United States",
+      "continentId": "na",
+      "adjacencies": [
+        "mexico",
+        "canada"
+      ]
+    },
+    {
+      "id": "mexico",
+      "name": "Mexico",
+      "continentId": "na",
+      "adjacencies": [
+        "united-states",
+        "central-america"
+      ]
+    },
+    {
+      "id": "central-america",
+      "name": "Central America",
+      "continentId": "na",
+      "adjacencies": [
+        "venezuela",
+        "mexico"
+      ]
+    },
+    {
+      "id": "cuba",
+      "name": "Cuba",
+      "continentId": "na",
+      "adjacencies": []
+    },
+    {
+      "id": "hispaniola",
+      "name": "Hispaniola",
+      "continentId": "na",
+      "adjacencies": []
+    },
+    {
+      "id": "caribbean",
+      "name": "Caribbean",
+      "continentId": "na",
+      "adjacencies": []
+    },
+    {
+      "id": "lesser-antilles",
+      "name": "Lesser Antilles",
+      "continentId": "na",
+      "adjacencies": []
+    }
+  ],
+  "continents": [
+    {
+      "id": "na",
+      "name": "North America & Central America",
+      "bonus": 5
+    },
+    {
+      "id": "sa",
+      "name": "South America",
+      "bonus": 2
+    },
+    {
+      "id": "eu",
+      "name": "Europe",
+      "bonus": 5
+    },
+    {
+      "id": "af",
+      "name": "Africa",
+      "bonus": 3
+    },
+    {
+      "id": "as",
+      "name": "Asia",
+      "bonus": 7
+    },
+    {
+      "id": "oc",
+      "name": "Oceania",
+      "bonus": 2
+    }
+  ]
+}

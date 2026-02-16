@@ -1,0 +1,151 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+}
+
+model User {
+  id            String    @id @default(uuid())
+  email         String?   @unique
+  emailVerified DateTime?
+  name          String?
+  image         String?
+  createdAt     DateTime  @default(now())
+  updatedAt     DateTime  @updatedAt
+  accounts      Account[]
+  sessions      Session[]
+  games         Game[]
+}
+
+model Account {
+  id                String  @id @default(uuid())
+  userId            String
+  type              String
+  provider          String
+  providerAccountId String
+  refresh_token     String?
+  access_token      String?
+  expires_at        Int?
+  token_type       String?
+  scope             String?
+  id_token          String?
+  session_state     String?
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@unique([provider, providerAccountId])
+}
+
+model Session {
+  id           String   @id @default(uuid())
+  sessionToken String   @unique
+  userId       String
+  expires      DateTime
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+}
+
+model VerificationToken {
+  identifier String
+  token      String
+  expires    DateTime
+
+  @@unique([identifier, token])
+}
+
+model Game {
+  id          String   @id @default(uuid())
+  userId      String?
+  mapId       String   @default("classic")
+  status      GameStatus @default(ACTIVE)
+  seed        String
+  accessToken String?
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+  user        User?    @relation(fields: [userId], references: [id])
+  players     GamePlayer[]
+  states      GameState[]
+  jobs        GameJob[]
+
+  @@index([userId, status])
+  @@index([accessToken])
+}
+
+model GamePlayer {
+  id           String    @id @default(uuid())
+  gameId       String
+  logicalId    String    // "human" | "bot-0" | "bot-1" | ...
+  userId       String?
+  name         String
+  isBot        Boolean   @default(false)
+  difficulty   BotDifficulty?
+  color        String
+  orderIndex   Int
+  isEliminated Boolean   @default(false)
+  createdAt    DateTime  @default(now())
+  updatedAt    DateTime  @updatedAt
+  game         Game      @relation(fields: [gameId], references: [id], onDelete: Cascade)
+
+  @@unique([gameId, orderIndex])
+  @@unique([gameId, logicalId])
+  @@index([gameId])
+}
+
+model GameState {
+  id              String   @id @default(uuid())
+  gameId          String   @unique
+  revision        Int      @default(0)
+  phase           GamePhase
+  currentPlayerId String
+  stateJson       Json
+  createdAt       DateTime @default(now())
+  updatedAt       DateTime @updatedAt
+  game            Game     @relation(fields: [gameId], references: [id], onDelete: Cascade)
+
+  @@index([gameId])
+}
+
+model GameJob {
+  id          String    @id @default(uuid())
+  gameId      String
+  type        String    @default("BOT_TURN")
+  status      JobStatus @default(PENDING)
+  payload     Json
+  runAt       DateTime
+  startedAt   DateTime?
+  completedAt DateTime?
+  error       String?
+  createdAt   DateTime  @default(now())
+  updatedAt   DateTime  @updatedAt
+  game        Game      @relation(fields: [gameId], references: [id], onDelete: Cascade)
+
+  @@index([status, runAt])
+  @@index([gameId, status])
+}
+
+enum GameStatus {
+  ACTIVE
+  COMPLETED
+  ABANDONED
+}
+
+enum GamePhase {
+  REINFORCE
+  ATTACK
+  FORTIFY
+}
+
+enum BotDifficulty {
+  EASY
+  MEDIUM
+  HARD
+}
+
+enum JobStatus {
+  PENDING
+  RUNNING
+  COMPLETED
+  FAILED
+}

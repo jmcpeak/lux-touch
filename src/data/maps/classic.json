@@ -1,0 +1,347 @@
+{
+  "id": "classic",
+  "name": "Classic World",
+  "continents": [
+    { "id": "na", "name": "North America", "bonus": 5 },
+    { "id": "sa", "name": "South America", "bonus": 2 },
+    { "id": "eu", "name": "Europe", "bonus": 5 },
+    { "id": "af", "name": "Africa", "bonus": 3 },
+    { "id": "as", "name": "Asia", "bonus": 7 },
+    { "id": "au", "name": "Australia", "bonus": 2 }
+  ],
+  "territories": [
+    {
+      "id": "alaska",
+      "name": "Alaska",
+      "continentId": "na",
+      "adjacencies": ["northwest-territory", "alberta", "kamchatka"]
+    },
+    {
+      "id": "northwest-territory",
+      "name": "Northwest Territory",
+      "continentId": "na",
+      "adjacencies": ["alaska", "greenland", "alberta", "ontario"]
+    },
+    {
+      "id": "greenland",
+      "name": "Greenland",
+      "continentId": "na",
+      "adjacencies": ["northwest-territory", "ontario", "quebec", "iceland"]
+    },
+    {
+      "id": "alberta",
+      "name": "Alberta",
+      "continentId": "na",
+      "adjacencies": [
+        "alaska",
+        "northwest-territory",
+        "ontario",
+        "western-united-states"
+      ]
+    },
+    {
+      "id": "ontario",
+      "name": "Ontario",
+      "continentId": "na",
+      "adjacencies": [
+        "northwest-territory",
+        "greenland",
+        "quebec",
+        "alberta",
+        "western-united-states",
+        "eastern-united-states"
+      ]
+    },
+    {
+      "id": "quebec",
+      "name": "Quebec",
+      "continentId": "na",
+      "adjacencies": ["greenland", "ontario", "eastern-united-states"]
+    },
+    {
+      "id": "western-united-states",
+      "name": "Western United States",
+      "continentId": "na",
+      "adjacencies": [
+        "alberta",
+        "ontario",
+        "eastern-united-states",
+        "central-america"
+      ]
+    },
+    {
+      "id": "eastern-united-states",
+      "name": "Eastern United States",
+      "continentId": "na",
+      "adjacencies": [
+        "ontario",
+        "quebec",
+        "western-united-states",
+        "central-america"
+      ]
+    },
+    {
+      "id": "central-america",
+      "name": "Central America",
+      "continentId": "na",
+      "adjacencies": [
+        "western-united-states",
+        "eastern-united-states",
+        "venezuela"
+      ]
+    },
+    {
+      "id": "venezuela",
+      "name": "Venezuela",
+      "continentId": "sa",
+      "adjacencies": ["central-america", "peru", "brazil"]
+    },
+    {
+      "id": "peru",
+      "name": "Peru",
+      "continentId": "sa",
+      "adjacencies": ["venezuela", "brazil", "argentina"]
+    },
+    {
+      "id": "brazil",
+      "name": "Brazil",
+      "continentId": "sa",
+      "adjacencies": ["venezuela", "peru", "argentina", "north-africa"]
+    },
+    {
+      "id": "argentina",
+      "name": "Argentina",
+      "continentId": "sa",
+      "adjacencies": ["peru", "brazil"]
+    },
+    {
+      "id": "iceland",
+      "name": "Iceland",
+      "continentId": "eu",
+      "adjacencies": ["greenland", "great-britain", "scandinavia"]
+    },
+    {
+      "id": "great-britain",
+      "name": "Great Britain",
+      "continentId": "eu",
+      "adjacencies": [
+        "iceland",
+        "scandinavia",
+        "northern-europe",
+        "western-europe"
+      ]
+    },
+    {
+      "id": "scandinavia",
+      "name": "Scandinavia",
+      "continentId": "eu",
+      "adjacencies": ["iceland", "great-britain", "northern-europe", "ukraine"]
+    },
+    {
+      "id": "northern-europe",
+      "name": "Northern Europe",
+      "continentId": "eu",
+      "adjacencies": [
+        "great-britain",
+        "scandinavia",
+        "ukraine",
+        "southern-europe",
+        "western-europe"
+      ]
+    },
+    {
+      "id": "southern-europe",
+      "name": "Southern Europe",
+      "continentId": "eu",
+      "adjacencies": [
+        "northern-europe",
+        "ukraine",
+        "western-europe",
+        "north-africa",
+        "middle-east"
+      ]
+    },
+    {
+      "id": "ukraine",
+      "name": "Ukraine",
+      "continentId": "eu",
+      "adjacencies": [
+        "scandinavia",
+        "northern-europe",
+        "southern-europe",
+        "ural",
+        "afghanistan",
+        "middle-east"
+      ]
+    },
+    {
+      "id": "western-europe",
+      "name": "Western Europe",
+      "continentId": "eu",
+      "adjacencies": [
+        "great-britain",
+        "northern-europe",
+        "southern-europe",
+        "north-africa"
+      ]
+    },
+    {
+      "id": "north-africa",
+      "name": "North Africa",
+      "continentId": "af",
+      "adjacencies": [
+        "brazil",
+        "western-europe",
+        "southern-europe",
+        "egypt",
+        "east-africa",
+        "congo"
+      ]
+    },
+    {
+      "id": "egypt",
+      "name": "Egypt",
+      "continentId": "af",
+      "adjacencies": ["north-africa", "east-africa", "middle-east"]
+    },
+    {
+      "id": "east-africa",
+      "name": "East Africa",
+      "continentId": "af",
+      "adjacencies": [
+        "north-africa",
+        "egypt",
+        "congo",
+        "south-africa",
+        "madagascar"
+      ]
+    },
+    {
+      "id": "congo",
+      "name": "Congo",
+      "continentId": "af",
+      "adjacencies": ["north-africa", "east-africa", "south-africa"]
+    },
+    {
+      "id": "south-africa",
+      "name": "South Africa",
+      "continentId": "af",
+      "adjacencies": ["congo", "east-africa", "madagascar"]
+    },
+    {
+      "id": "madagascar",
+      "name": "Madagascar",
+      "continentId": "af",
+      "adjacencies": ["east-africa", "south-africa"]
+    },
+    {
+      "id": "middle-east",
+      "name": "Middle East",
+      "continentId": "as",
+      "adjacencies": [
+        "southern-europe",
+        "ukraine",
+        "afghanistan",
+        "india",
+        "egypt"
+      ]
+    },
+    {
+      "id": "afghanistan",
+      "name": "Afghanistan",
+      "continentId": "as",
+      "adjacencies": ["ukraine", "middle-east", "india", "china", "ural"]
+    },
+    {
+      "id": "ural",
+      "name": "Ural",
+      "continentId": "as",
+      "adjacencies": ["ukraine", "afghanistan", "china", "siberia"]
+    },
+    {
+      "id": "siberia",
+      "name": "Siberia",
+      "continentId": "as",
+      "adjacencies": ["ural", "china", "mongolia", "irkutsk", "yakutsk"]
+    },
+    {
+      "id": "yakutsk",
+      "name": "Yakutsk",
+      "continentId": "as",
+      "adjacencies": ["siberia", "irkutsk", "kamchatka"]
+    },
+    {
+      "id": "kamchatka",
+      "name": "Kamchatka",
+      "continentId": "as",
+      "adjacencies": ["alaska", "yakutsk", "irkutsk", "mongolia", "japan"]
+    },
+    {
+      "id": "irkutsk",
+      "name": "Irkutsk",
+      "continentId": "as",
+      "adjacencies": ["siberia", "yakutsk", "kamchatka", "mongolia"]
+    },
+    {
+      "id": "mongolia",
+      "name": "Mongolia",
+      "continentId": "as",
+      "adjacencies": ["siberia", "irkutsk", "kamchatka", "japan", "china"]
+    },
+    {
+      "id": "japan",
+      "name": "Japan",
+      "continentId": "as",
+      "adjacencies": ["kamchatka", "mongolia"]
+    },
+    {
+      "id": "china",
+      "name": "China",
+      "continentId": "as",
+      "adjacencies": [
+        "afghanistan",
+        "ural",
+        "siberia",
+        "mongolia",
+        "india",
+        "southeast-asia"
+      ]
+    },
+    {
+      "id": "india",
+      "name": "India",
+      "continentId": "as",
+      "adjacencies": ["middle-east", "afghanistan", "china", "southeast-asia"]
+    },
+    {
+      "id": "southeast-asia",
+      "name": "Southeast Asia",
+      "continentId": "as",
+      "adjacencies": ["china", "india", "indonesia"]
+    },
+    {
+      "id": "indonesia",
+      "name": "Indonesia",
+      "continentId": "au",
+      "adjacencies": ["southeast-asia", "new-guinea", "western-australia"]
+    },
+    {
+      "id": "new-guinea",
+      "name": "New Guinea",
+      "continentId": "au",
+      "adjacencies": ["indonesia", "eastern-australia", "western-australia"]
+    },
+    {
+      "id": "eastern-australia",
+      "name": "Eastern Australia",
+      "continentId": "au",
+      "adjacencies": ["new-guinea", "western-australia"]
+    },
+    {
+      "id": "western-australia",
+      "name": "Western Australia",
+      "continentId": "au",
+      "adjacencies": ["indonesia", "new-guinea", "eastern-australia"]
+    }
+  ]
+}
